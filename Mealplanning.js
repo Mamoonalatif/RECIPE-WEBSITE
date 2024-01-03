@@ -1,3 +1,4 @@
+// JavaScript logic
 function addRecipe() {
     const recipeName = document.getElementById('recipe-name').value;
     const daySelect = document.getElementById('day-select');
