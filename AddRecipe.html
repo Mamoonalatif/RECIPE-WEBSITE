@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="AddRecipe.css">
+   
+</head>
+<body>
+  <nav>
+    <div class="logo"></div>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Recipes.html">Recipes</a></li>
+        <li><a href="AddRecipe.html">Add Recipe</a></li>
+        <li><a href="MealPlanning.html">Meal Planning</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+        <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+        <li><a href="FAQs.html">FAQS</a></li>
+        <li><a href="Saves.html"><img src="wwwroot/images/icon/saves.png" alt=""></a></li>
+        <li><a href="Login.html"><img src="wwwroot/images/icon/account.png" alt=""></a></li>
+      </ul>
+  </nav>
+   <div class="content">
+     <h1>Add Your Recipe</h1>
+    <form action="/submit_recipe" method="post">
+        <label for="recipeName">Recipe Name:</label>
+        <input type="text" id="recipeName" name="recipeName" required>
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" name="instructions" rows="8" required></textarea>
+
+        <button type="submit">Submit Recipe</button>
+    </form>
+  </div>
+</br>
+<div class="copyright">
+    © Copyright 2023 All rights of publications are reserved by FOODIE FRENZY. Reproduction without consent is not allowed.
+    </div><div class="notification-button">
+      <img src="wwwroot/images/icon/notification.png" alt="">
+    </div><hr/>
+    <div class="social">
+      Get social with us
+      </div>
+      <div class="socialapps">
+      <img src="wwwroot/images/icon/twitter1.png" alt="">
+      <img src="wwwroot/images/icon/twitter2.png" alt="">
+      <img src="wwwroot/images/icon/facebook.png" alt="">
+      <img src="wwwroot/images/icon/insta.png" alt="">
+      <img src="wwwroot/images/icon/youtube.png" alt="">
+    </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url('C:/Users/pc planet/Desktop/RecipeWebsite/wwwroot/images/icon/logo.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: 20px;
+  float:left; 
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 20;
+  padding-right: 10px;
+  padding-left: 50px;
+  background-color: white; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  color: #750E21;
+}
+ .navbar li {
+  display: inline-block; 
+}
+
+.navbar li a {
+  display:block;
+  padding: 20px 20px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  background-color: #BED754;
+  margin-top: 5px;
+  text-decoration: none;
+  color:#750E21 ; 
+}
+
+.navbar li a img {
+  height: 15px; 
+  width: auto;
+  border-radius: 50%;
+  transform: scale(3); 
+  background-color:#fff;
+}
+
+.navbar li a:hover {
+  background-color:#750E21;
+  color:#BED754; 
+}
+
+.content {
+    display: flex;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+section p {
+  text-align: center;
+  padding: 5px;
+}
+section h1{
+  text-align: center;
+  color:#750E21;
+}
+
+.text-section {
+    flex: 1;
+    text-align: right;
+}
+
+.image-section {
+    flex: 1;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    padding:10px; 
+  }
+  .notification-button{
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+  }
+.copyright{
+    text-align: center;
+    padding:10px; 
+  }
+  .notification-button{
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+  }
+
+  .notification-button img{
+    height: 15px; 
+    width: auto;
+    border-radius: 30%;
+    transform: scale(3);
+    padding:5px;
+  }
+  
+
+  .notification-button img:hover{
+    transform: scale(3.5);
+  }
+  .social{
+    text-align: left;
+    padding:20px; 
+  }
+  .socialapps img{ 
+    height: 20px;
+    width:auto;
+    border-radius: 50%;
+    transform: scale(2); 
+    margin: 0px;
+    padding:12px;
+  }
+
+  .socialapps img:hover{
+    transform: scale(2.5);
+  }
+  @media (max-width:768px){
+    .logo {
+      margin-left: 2px;
+      width: 70px;
+      height: 70px;
+    }
+    .navbar {
+      padding-left: 20px;
+      justify-content: flex-start; 
+    }
+    .navbar li {
+      display: inline-block;
+      margin-right: 2px;
+    }
+    
+    .navbar li a {
+      padding:10px;
+    }
+    .navbar li a img {
+      border-radius: 50%;
+      transform: scale(2); 
+    }
+    }
