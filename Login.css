@@ -5,7 +5,7 @@ body {
   color: #750E21;
   }
   .content{
-    background-image: url('C:/Users/pc planet/Desktop/RecipeWebsite/wwwroot/images/bg/login.jpg');
+    background-image: url('images/bg/login.jpg');
     width: 100%; 
     height: 500px;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body {
   }  .logo {
     width: 100px;
     height: 100px;
-    background-image: url('C:/Users/pc planet/Desktop/RecipeWebsite/wwwroot/images/icon/logo.png');
+    background-image: url('wwwroot/images/icon/logo.png');
     background-size: cover;
     background-position: center;
     border-radius: 50%;
