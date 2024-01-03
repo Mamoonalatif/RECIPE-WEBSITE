@@ -1,10 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: #750E21;
-  }
-  .logo img{
+.logo img{
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -54,49 +48,62 @@ body {
     background-color:#750E21; 
     color:#BED754; 
   }
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-  .content img{
-    width: 100%; 
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
-  }
-  .search-bar {
-    position: absolute;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    width:300px;
-    height:10px;
-    padding: 30px;
-    border-color: #BED754;
-    border-radius: 0.8rem;
-    justify-content:center;
-    background-color: transparent;
+.h1 {
+    color: #750E21;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#recipe-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.form {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
     display: flex;
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    width: 70%;
+}
+
+button {
+    padding: 8px;
+    background-color: #BED754;
+    color: #750E21;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #750E21;
+    color: #BED754;
+}
+
   
-}
-.search-bar::placeholder {
-  color: white;
-}
-.search-button img{
-    position: absolute;
-    right:0.2em;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    width:50px;
-    height:50px;
-  }
-
-
-.search-button img:hover {
-  cursor: pointer;
-
- 
-}
   .copyright{
     text-align: center;
     padding:10px; 
@@ -120,24 +127,24 @@ body {
   .notification-button img:hover{
     transform: scale(3.5);
   }
-  .socialapps img{ 
-    height: 20px;
-    width:auto;
-    border-radius: 50%;
-    transform: scale(2); 
-    margin: 0px;
-    padding:12px;
-  }
+ 
+.social{
+  text-align: left;
+  padding:20px; 
+}
+.socialapps img{ 
+  height: 20px;
+  width:auto;
+  border-radius: 50%;
+  transform: scale(2); 
+  margin: 0px;
+  padding:12px;
+}
 
-  .socialapps img:hover{
-    transform: scale(2.5);
-  }
-
+.socialapps img:hover{
+  transform: scale(2.5);
+}
 @media (max-width:768px){
-  .content{
-    background-size: cover;
-    background-position: center;
-  }
   .logo {
     margin-left: 2px;
     width: 70px;
@@ -151,7 +158,7 @@ body {
     display: inline-block;
     margin-right: 2px;
   }
-
+  
   .navbar li a {
     padding:10px;
   }
@@ -159,8 +166,4 @@ body {
     border-radius: 50%;
     transform: scale(2); 
   }
-  .search-bar {
-    width: 250px;
   }
- 
-}
