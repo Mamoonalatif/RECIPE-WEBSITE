@@ -1,6 +1,6 @@
-# FOODIE FRENZY 
-## (A recipe website for food enthusiasts.)
+# FOODIE FRENZY (Recipe Website)
 
+A modern, user-friendly Recipe Website for browsing, searching, and sharing delicious recipes. Built with a focus on clean design, responsive layout, and scalable architecture, this project enables users to discover new dishes, contribute their own recipes, and manage favorites with ease.
 ![image](https://github.com/Mamoonalatif/RECIPE-WEBSITE/assets/151760913/2df799af-893b-444f-921b-cefda44dee71)
 
 - Compatible with mobile devices with a beautiful and pleasant user interface.
@@ -21,4 +21,21 @@ Visit FAQs page for further queries [FAQS](https://mamoonalatif.github.io/RECIPE
 ![image](https://github.com/Mamoonalatif/RECIPE-WEBSITE/assets/151760913/6631bbed-51df-4a3c-ba57-797680a429bf)
 
 
+
+## Features
+
+- **Recipe Catalog:** Browse a wide selection of recipes with images, ingredients, and step-by-step instructions.
+- **Search & Filter:** Quickly find recipes by name, ingredients, or category.
+- **User Accounts:** Register, log in, and manage your personal recipe collection.
+- **Submit Recipes:** Add your own recipes for others to discover.
+- **Favorites:** Save your favorite recipes for quick access.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Modern Stack:** Built using [your tech stack, e.g. HTML5, CSS3, JavaScript, React, Node.js, MongoDB].
+
+
+### Installation
+ **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mamoonalatif/RECIPE-WEBSITE.git
+   cd RECIPE-WEBSITE
 
